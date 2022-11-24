@@ -21,7 +21,7 @@ async function onSuccess(position) {
     
     // api , google, opencagedata
 
-    const api_key ="776fa7b85a604c8eb9468c1d12382557";
+    const api_key ="<api_key>";
     const url =`https://api.opencagedata.com/geocode/v1/json?q=${lat}+${lng}&key=${api_key}`;
    
     const response = await fetch(url);
